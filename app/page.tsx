@@ -1,8 +1,19 @@
+import Book from "./Book";
+import Footer from "./Footer";
+import Hero from "./Hero";
+import HikeList from "./HikeList";
+import LocationList from "./LocationList";
+import Newsletter from "./Newsletter";
 
-export default function Home() {
+export default function page() {
   return (
-   <div className="h-screen w-full relative">
-    <img src="" className="h-full w-full object-cover absolute top-0 left-0" alt="" />
-   </div>
-  );
+    <div>
+      <Hero />
+      <HikeList />
+      <Book />
+      <LocationList />
+      <Newsletter />
+      <Footer />
+    </div>
+  )
 }

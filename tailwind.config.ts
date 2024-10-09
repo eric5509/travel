@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      fontSize:{
+        10: "10px",
+        11: "11px",
+        13: "13px",
+        15: "15px",
+        17: "17px",
+        21: "21px",
+      }
     },
   },
   plugins: [],
